@@ -1,0 +1,24 @@
+{
+  "name": "nestjs-file-storage",
+  "version": "1.0.0",
+  "description": "NestJS storage system",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "nestjs",
+    "storage"
+  ],
+  "author": "Petr Vavřínek",
+  "license": "ISC",
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3"
+  }
+}

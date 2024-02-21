@@ -1,0 +1,1 @@
+export const getStorageInjectToken = (name?: string) => `STORAGE_${name}`;
